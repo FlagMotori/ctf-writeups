@@ -1,0 +1,27 @@
+<html>
+<head>
+  <meta charset="utf-8"/>
+</head>
+<body>
+  <form>
+    <label for="flag">Check the flag:</label><br>
+    <input type="text" id="flag" name="flag">
+    <input type="submit" value="Submit">
+  </form>
+  <script src="wasm_exec.js"></script>
+  <script>
+    async function init() {
+      const go = new Go();
+      const result = await WebAssembly.instantiateStreaming(fetch('main.wasm'), go.importObject);
+      go.run(result.instance);
+    }
+
+    init();
+
+    document.querySelector('form').onsubmit = function (e) {
+      e.preventDefault();
+      alert(check(document.querySelector('#flag').value));
+    }
+  </script>
+</body>
+</html>
