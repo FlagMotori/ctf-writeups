@@ -11,3 +11,6 @@ https://book.hacktricks.xyz/pentesting-web/hacking-jwt-json-web-tokens <br>
 حالا چی به ذهنمون می‌رسه؟؟... Sqli :) <br>
 با دستور زیر می‌تونستیم فلگ رو پیدا کنیم:<br>
 `sqlmap -u <url> --data=<data> --batch --technique=2 --file-read=/root/flag.txt`
+
+در دستور بالا به‌جای `<data>` پارامتر‌ی رو که همون فرم Customer ارسال می‌کنه قرار می‌دیم. <br>
+با گذاشتن فلگ `technique--` ‌مشخص می‌کنیم که می‌خوایم injection از نوع Time-Based Blind باشه.
