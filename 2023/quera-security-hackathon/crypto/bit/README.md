@@ -16,7 +16,7 @@ Can you find it
 
 فایل یه عکس از استودیوی آزادیه
 
-![Azadi_Stadium_ACL_2018.png](:/../Azadi_Stadium_ACL_2018.png)
+![Azadi_Stadium_ACL_2018.png](https://github.com/FlagMotori/ctf-writeups/raw/main/2023/quera-security-hackathon/crypto/bit/Azadi_Stadium_ACL_2018.png)
 
 با `exiftools` متادیتای عکس رو چک میکنیم شاید اونجا چیزی در مورد فلگ پیدا کنیم
 
