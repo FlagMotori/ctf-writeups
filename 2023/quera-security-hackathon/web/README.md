@@ -1,8 +1,7 @@
 ## Bad Token
 
 بعد از اینکه لاگین کردیم, سرور در جواب به ما یک JWT بر می‌گردونه.<br>
-اینجا اولین چیزی که به ذهنمون می‌رسه JWT Attack هستش که سناریو‌های مختلف رو می‌تونید توی لینک زیر ببینید:<br>
-https://book.hacktricks.xyz/pentesting-web/hacking-jwt-json-web-tokens <br>
+اینجا اولین چیزی که به ذهنمون می‌رسه JWT Attack هستش که سناریو‌های مختلف رو می‌تونید توی <a href="https://book.hacktricks.xyz/pentesting-web/hacking-jwt-json-web-tokens">این</a> لینک ببینید. <br>
 توی این چلنج اولین چیزی که تست کردم CVE-2015-9235 بود.<br>
 الگوریتم رو به none تغییر دادم و role رو هم به admin تغییر دادم. حالا می‌تونستم فلگ رو ببینم.<br>
 
